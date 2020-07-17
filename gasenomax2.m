@@ -1,0 +1,6 @@
+options = gaoptimset('PlotFcns',...
+                {@gaplotbestf,@gaplotbestindiv,@gaplotexpectation,@gaplotstopping},...
+                'PopulationSize',pop_size,'PopInitRange',[ min_pop ; max_pop ],'Generations',gen);
+            
+            [x fval] = ga(@senomax,1,[],[],[],[],0,2*pi,[],options)
+            

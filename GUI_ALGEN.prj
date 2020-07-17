@@ -1,0 +1,116 @@
+<deployment-project plugin="plugin.webdeploy" plugin-version="1.0">
+  <configuration build-checksum="1920102092" file="C:\Users\35191\Desktop\1161571\GUI_ALGEN.prj" location="C:\Users\35191\Desktop\1161571" name="GUI_ALGEN" target="target.webdeploy" target-name="Web App Compiler">
+    <param.appname>GUI_ALGEN_exe</param.appname>
+    <param.intermediate>${PROJECT_ROOT}\GUI_ALGEN</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\GUI_ALGEN</param.files.only>
+    <param.output />
+    <param.logdir>${PROJECT_ROOT}\GUI_ALGEN</param.logdir>
+    <param.target.type>subtarget.web.app</param.target.type>
+    <param.user.defined.mcr.options />
+    <param.support.packages />
+    <unset>
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.target.type />
+      <param.user.defined.mcr.options />
+      <param.support.packages />
+    </unset>
+    <fileset.web.main>
+      <file>${PROJECT_ROOT}\Menu_inicial.mlapp</file>
+    </fileset.web.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\71761299_1414372675377817_1502152407910449152_n.jpg</file>
+      <file>${PROJECT_ROOT}\app1.mlapp</file>
+      <file>${PROJECT_ROOT}\cost2_3.m</file>
+      <file>${PROJECT_ROOT}\cost4.m</file>
+      <file>${PROJECT_ROOT}\costfh2.m</file>
+      <file>${PROJECT_ROOT}\custo.m</file>
+      <file>${PROJECT_ROOT}\Erro.mlapp</file>
+      <file>${PROJECT_ROOT}\fig_ex2.JPG</file>
+      <file>${PROJECT_ROOT}\gacusto.m</file>
+      <file>${PROJECT_ROOT}\gasenomax2.m</file>
+      <file>${PROJECT_ROOT}\gasenomin2.m</file>
+      <file>${PROJECT_ROOT}\gatensao.m</file>
+      <file>${PROJECT_ROOT}\GUI_Acerca_de.mlapp</file>
+      <file>${PROJECT_ROOT}\GUI_AG.JPG</file>
+      <file>${PROJECT_ROOT}\GUI_ALGEN.prj</file>
+      <file>${PROJECT_ROOT}\Img_ex_2_3.png</file>
+      <file>${PROJECT_ROOT}\Img_ex_4.png</file>
+      <file>${PROJECT_ROOT}\Img_free_handle.png</file>
+      <file>${PROJECT_ROOT}\Menu_inicial.mlapp</file>
+      <file>${PROJECT_ROOT}\senomax.m</file>
+      <file>${PROJECT_ROOT}\senomin.m</file>
+      <file>${PROJECT_ROOT}\tensao.m</file>
+    </fileset.resources>
+    <fileset.depfun />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\GUI_ALGEN" name="GUI_ALGEN_exe.ctf" optional="false">C:\Users\35191\Desktop\1161571\GUI_ALGEN\GUI_ALGEN_exe.ctf</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="polyspacebugfinder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
